@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: obs-common
+Version: 1.0.0
+Summary: Shared cross-cutting library for the observability platform services (config, DB, API envelope, broker, HTTP client, OpenTelemetry helpers).
+Requires-Python: >=3.12
+Requires-Dist: fastapi
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: pydantic>=2
+Requires-Dist: pydantic-settings
+Requires-Dist: httpx
+Requires-Dist: pika
+Requires-Dist: PyJWT
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: opentelemetry-instrumentation-fastapi
+Requires-Dist: opentelemetry-instrumentation-httpx
